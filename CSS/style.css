@@ -248,13 +248,11 @@ text-align: left;
 }
 
 .social .twitter {
-	color: white;
-	background-color: black;
+	color: #1C1C1C;
 }
 
 .social .linkedin {
-	color: white;
-	background-color: black;
+	color: #007BB6;
 }
 
 .social .copy {
