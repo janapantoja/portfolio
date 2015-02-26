@@ -40,6 +40,16 @@ ol, ul {
 
 /* Start of Custom Styles */
 
+a {
+	color: #838994;
+	text-decoration: none; 
+}
+
+a:hover {
+    text-decoration:none;
+    color:#333333;
+}
+
 .content {
     padding: 0 15px;
     margin: 0 auto;
@@ -244,7 +254,7 @@ text-align: left;
 
 .social .icons li:hover {
     cursor: pointer;
-    color: #333333
+    color: #333333;
 }
 
 .social .twitter {
@@ -259,5 +269,14 @@ text-align: left;
     font-size: 0.9rem;
     font-weight: 300;
     color: #838994;
+}
 
+/*@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 1em;
+    }
+}*/
 
