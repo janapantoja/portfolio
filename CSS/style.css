@@ -40,10 +40,20 @@ ol, ul {
 
 /* Start of Custom Styles */
 
+a {
+	color: #838994;
+	text-decoration: none; 
+}
+
+a:hover {
+    text-decoration:none;
+    color:#333333;
+}
+
 .content {
     padding: 0 15px;
     margin: 0 auto;
-	width: 970px;
+	width: 1000px;
 	vertical-align: baseline;
 	box-sizing: border-box;
 }
@@ -66,6 +76,7 @@ ol, ul {
 	font-family: 'Ubuntu', sans-serif;
 
 }
+
 .top-navigation .links Li {
 	display: inline-block;
 	margin-left: 25px;
@@ -75,67 +86,57 @@ ol, ul {
     -webkit-font-smoothing: antialiased;
 }
 
+
 .top-navigation .links .active {
  	color: #4c5058;
     font-weight: 500;
 }
+
 
 .top-navigation .links Li:hover {
 	cursor: pointer;
     color: #333333;
 }
 
+
 .top-navigation .logo {
 	height: 70px;
 }
 
+
 /* About Me */
 
 .introduction {
-	background-image: url('../Images/me2.jpg');
-    background-position: 90% 40%;
+	background-image: url('../Images/mervaa.jpg');
+    background-position: 79% 71%;
     background-repeat: no-repeat;
-    background-size: 40%;
-    height: 41rem;
-    font-family: 'Ubuntu', sans-serif;
+    background-size: 32%;
+    height: 35rem;
+    font-family: 'Lato', sans-serif;
     overflow: auto; 
 
 }
 
 .introduction h2 {
-color: black;
-text-align: left;
-font-size: 1.5rem;
-margin-top: 1.5rem;
-width: 45%;
-line-height: 2rem;
-font-family: 'Ubuntu+Condensed';
-font-weight: 300;
+    color: black;
+    text-align: left;
+    font-size: 1.43rem;
+    margin-top: 1.5rem;
+    width: 45%;
+    line-height: 1.8rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
 }
 
 .introduction h1 {
-margin-top: 13rem;
-font-size: 3rem;
-color: black;
-text-align: left;
+    margin-top: 13rem;
+    font-size: 2.5rem;
+    color: black;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
 }
 
-.big-button {
-	text-shadow: none;
-    border-style: none;
-    border-radius: 4px;
-    padding: 16px 26px;
-    line-height: 1.33;
-    margin: 0 auto;
-    display: block;
-    background-color: #F15A29;
-    border-color: #F15A29;
-    cursor: pointer;
-    color: white;
-    margin-top: 1.5rem;
-    width: 9rem;
-    font-size: 1rem;
-}
+
 
 /*Recent Work*/
 
@@ -153,26 +154,32 @@ text-align: left;
 
 }
 
-.about h2 {
-	font-size: 3rem;
+.about .content h2 {
+	font-size: 2rem;
 	margin: 2rem 0 3rem;
 	font-weight: 300;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.about h3 {
+    font-size: 2rem;
+    font-weight: 200;
+    margin: 2rem 0 3rem;
+    font-family: 'Lato', sans-serif;
 }
 
 .about .icon {
     width: 33.3333333%;
     display: inline-block;
     float: left;
-    /* styles to assist with debugging */
-    /*border: 1px solid black;*/
-/*    box-sizing: border-box;
-    height: 4em;*/
 }
 
 .about .icon h3 {
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 1.563rem;
 	margin: 2.5rem 0px 1.875rem;
+    font-family: 'Lato', sans-serif;
 }
 
 /*My Skills*/
@@ -192,26 +199,134 @@ text-align: left;
 }
 
 .skills h2 {
-	font-size: 3rem;
-	margin: 2rem 0 3rem;
-	font-weight: 300;
+	font-size: 2rem;
+    margin: 2rem 0 3rem;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+
 }
 
 .skills .icon {
     width: 33.3333333%;
     display: inline-block;
     float: left;
-    /* styles to assist with debugging */
-    /*border: 1px solid black;*/
-/*    box-sizing: border-box;
-    height: 4em;*/
 }
 
 .skills .icon h3 {
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 1.563rem;
 	margin: 2.5rem 0px 1.875rem;
+    font-family: 'Lato', sans-serif;
 }
+
+/*Project pages*/
+
+.sobre .conteudo {
+    display: block;
+    margin: auto;
+    width: 12em;
+
+}
+
+.sobre .conteudo h2{
+    color: #1389f7;
+    font-weight: 200;
+    font-size: 1.8rem;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+}
+
+
+.sobre .description h3{
+    color: #51A7F9;
+    font-weight: 200;
+    font-size: 1.55rem;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin: 3rem 0px 1rem;
+}
+
+.sobre .challenge p{
+    color: black;
+    text-align: center;
+    font-size: 1.15rem;
+    margin-top: 1.5rem;
+    width: 100%;
+    line-height: 1.6rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.sobre .other {
+    width: 33.3333333%;
+    display: inline-block;
+    float: left;
+    
+}
+
+.sobre .other p{
+    color: black;
+    text-align: center;
+    font-size: 1.15rem;
+    margin-top: 0.5rem;
+    width: 100%;
+    line-height: 1.6rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+ 
+.sobre .description {
+    display: block;
+    margin: auto;
+    width: 65%;
+    padding-bottom: 3em; 
+
+}
+
+
+.sobre .description li{
+    color: black;
+    text-align: left;
+    font-size: 1.15rem;
+    margin-top: 1.5rem;
+    width: 100%;
+    line-height: 1.3rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    padding-left: 8em;
+    list-style-type: disc;
+    list-style-position: inside;
+    text-indent: -1em;
+
+}
+
+
+
+.big-button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    margin: 0 auto;
+    display: block;
+    background-color: #1389DB;
+    border-color: #1389DB;
+    cursor: pointer;
+    color: white;
+    margin-top: 16rem;
+    width: 9rem;
+    font-size: 1rem;
+    color: #838994;
+}
+
+.description .big-button a{
+    color: #FFFFFF;
+}
+
 
 
 /*Footer*/
@@ -219,7 +334,7 @@ text-align: left;
 .social {
 	background-color: #fff;
 	overflow: auto;
-	padding-bottom: 9.375rem;
+	padding-bottom: 2.5rem;
 	text-align: center;
 }
 
@@ -244,24 +359,160 @@ text-align: left;
 
 .social .icons li:hover {
     cursor: pointer;
-    color: #333333
+    color: #333333;
 }
 
 .social .twitter {
-	color: #55acee;
+	color: #1C1C1C;
 }
 
-.social .facebook {
-	color: #4c66a4;
-}
-
-.social .instagram {
-	color: #3f729b;
+.social .linkedin {
+	color: #007BB6;
 }
 
 .social .copy {
     font-size: 0.9rem;
     font-weight: 300;
     color: #838994;
+<<<<<<< HEAD
 
 /*what else*/
+=======
+}
+
+@media only screen and (max-width: 1040px) {
+    .content {
+        width: 844px
+        }
+
+    .introduction h1 {
+        font-size: 1.7rem;
+        margin-top: 9rem;
+        }
+
+    .introduction h2 {
+        font-size: 1.25rem;
+        line-height: 1.62rem;
+        width: 47%;
+}
+
+    .introduction {
+        background-size: 37%;
+        background-position: 83% 106%;
+        height: 23rem;
+    }
+
+    .about .content h2 {
+    font-size: 1.5rem;
+    }
+
+    .skills h2 {
+    font-size: 1.5rem;
+    }
+
+@media only screen and (max-width: 768px) {
+    .content {
+    	padding: 0px 20px 0px 20px;
+    	width: 680px
+    }
+
+	.introduction {
+    	background-size: 42%;
+    	background-position: 90% 88%;
+    	height: 23rem;
+    }
+
+    .introduction h1 {
+   		font-size: 1.8rem;
+   		margin-top: 9rem;
+}
+
+	.introduction h2 {
+   		font-size: 1rem;
+   		line-height: 1.3rem;
+   		width: 50%;
+}
+
+	.about {
+		padding-bottom: 1rem
+	}
+
+    .about .content h2{
+        font-size: 1.5rem;
+    }
+
+    .skills h2{
+        font-size: 1.5rem;
+    }
+
+
+/*Project pages*/
+
+
+.sobre .conteudo {
+    width: 12em;
+}
+
+.sobre .other {
+    width: 100%;
+    display: inline-block;
+    float: left;
+}
+
+
+.big-button {
+    margin-top: 29rem;
+}
+
+
+
+@media only screen and (max-width:480px) {
+	.content {
+    	padding: 0px 10px 0px 10px;
+    	width: 400px
+    }
+
+    .introduction h1 {
+    	text-align: center;
+    	margin-top: 9rem
+    }
+
+    .introduction h2 {
+    	text-align: center;
+    	width: 100%;
+    }
+
+    .introduction {
+    	background-size: 90%;
+    	background-position: 50% 90%;
+    	height: 60rem;
+    }
+
+    .introduction h2 {
+   		font-size: 1.33rem;
+   		line-height: 1.9rem;
+   		width: 90%;
+   		margin-top: 2.5rem;
+    }
+
+	.about .icon {
+		width: 100%;
+	}
+
+	.about h2 {
+		font-size: 2rem;
+	}
+
+	.skills .icon {
+		width: 100%;
+	}
+
+	.skills h2 {
+		font-size: 2rem;
+	}
+
+    .top-navigation .links Li {
+    margin-left: 11px;
+    font-size: 14px;
+    }
+>>>>>>> gh-pages
