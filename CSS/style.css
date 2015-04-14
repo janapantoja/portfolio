@@ -217,6 +217,7 @@ a:hover {
 	font-size: 1.563rem;
 	margin: 2.5rem 0px 1.875rem;
     font-family: 'Lato', sans-serif;
+<<<<<<< HEAD
 }
 
 /*Project pages*/
@@ -228,6 +229,19 @@ a:hover {
 
 }
 
+=======
+}
+
+/*Project pages*/
+
+.sobre .conteudo {
+    display: block;
+    margin: auto;
+    width: 12em;
+
+}
+
+>>>>>>> master
 .sobre .conteudo h2{
     color: #1389f7;
     font-weight: 200;
@@ -433,6 +447,67 @@ a:hover {
    		width: 50%;
 }
 
+<<<<<<< HEAD
+@media only screen and (max-width: 1040px) {
+    .content {
+        width: 844px
+        }
+
+    .introduction h1 {
+        font-size: 1.7rem;
+        margin-top: 9rem;
+        }
+
+    .introduction h2 {
+        font-size: 1.25rem;
+        line-height: 1.62rem;
+        width: 47%;
+}
+
+    .introduction {
+        background-size: 37%;
+        background-position: 83% 106%;
+        height: 23rem;
+    }
+
+    .about .content h2 {
+    font-size: 1.5rem;
+    }
+
+    .skills h2 {
+    font-size: 1.5rem;
+    }
+
+@media only screen and (max-width: 768px) {
+    .content {
+    	padding: 0px 20px 0px 20px;
+    	width: 680px
+    }
+
+	.introduction {
+    	background-size: 42%;
+    	background-position: 90% 88%;
+    	height: 23rem;
+    }
+
+    .introduction h1 {
+   		font-size: 1.8rem;
+   		margin-top: 9rem;
+}
+
+	.introduction h2 {
+   		font-size: 1rem;
+   		line-height: 1.3rem;
+   		width: 50%;
+}
+
+	.about {
+		padding-bottom: 1rem
+	}
+
+    .about .content h2{
+        font-size: 1.5rem;
+=======
 	.about {
 		padding-bottom: 1rem
 	}
@@ -514,5 +589,80 @@ a:hover {
     .top-navigation .links Li {
     margin-left: 11px;
     font-size: 14px;
+>>>>>>> master
     }
 
+    .skills h2{
+        font-size: 1.5rem;
+    }
+
+
+/*Project pages*/
+
+
+.sobre .conteudo {
+    width: 12em;
+}
+
+.sobre .other {
+    width: 100%;
+    display: inline-block;
+    float: left;
+}
+
+
+.big-button {
+    margin-top: 29rem;
+}
+
+
+
+@media only screen and (max-width:480px) {
+	.content {
+    	padding: 0px 10px 0px 10px;
+    	width: 400px
+    }
+
+    .introduction h1 {
+    	text-align: center;
+    	margin-top: 9rem
+    }
+
+    .introduction h2 {
+    	text-align: center;
+    	width: 100%;
+    }
+
+    .introduction {
+    	background-size: 90%;
+    	background-position: 50% 90%;
+    	height: 60rem;
+    }
+
+    .introduction h2 {
+   		font-size: 1.33rem;
+   		line-height: 1.9rem;
+   		width: 90%;
+   		margin-top: 2.5rem;
+    }
+
+	.about .icon {
+		width: 100%;
+	}
+
+	.about h2 {
+		font-size: 2rem;
+	}
+
+	.skills .icon {
+		width: 100%;
+	}
+
+	.skills h2 {
+		font-size: 2rem;
+	}
+
+    .top-navigation .links Li {
+    margin-left: 11px;
+    font-size: 14px;
+    }
