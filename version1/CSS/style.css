@@ -74,6 +74,7 @@ a:hover {
 .top-navigation .links {
 	float: right;
 	font-family: 'Ubuntu', sans-serif;
+
 }
 
 .top-navigation .links Li {
@@ -103,36 +104,36 @@ a:hover {
 }
 
 
-/* About */
+/* About Me */
 
 .introduction {
-	background-image: url('../Images/RVA8.jpg');
-    background-position: center bottom;
+	background-image: url('../Images/mervaa.jpg');
+    background-position: 79% 71%;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 46rem;
-    font-family: 'Ubuntu', sans-serif;
+    background-size: 32%;
+    height: 35rem;
+    font-family: 'Lato', sans-serif;
     overflow: auto; 
-    opacity: 0.88;
+
 }
 
 .introduction h2 {
-    color: white;
-    text-align: center;
-    font-size: 2rem;
-    margin-top: 2rem;
+    color: black;
+    text-align: left;
+    font-size: 1.43rem;
+    margin-top: 1.5rem;
+    width: 45%;
     line-height: 1.8rem;
-    font-family: 'Ubuntu Mono', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 300;
 }
 
 .introduction h1 {
-    margin-top: 18rem;
-    font-size: 3.8rem;
-    color: white;
-    text-align: center;
-    font-family: 'Ubuntu Mono', sans-serif;
-    font-weight: 700;
+    margin-top: 13rem;
+    font-size: 2.5rem;
+    color: black;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -142,42 +143,34 @@ a:hover {
 .about {
     background-color: #fff;
     overflow: hidden;
-    padding-bottom: 3rem;
-    /*border: 1px solid black;
-    box-sizing: border-box;
-    height: 80em;*/
+    padding-bottom: 5rem;
 }
 
 .about .content {
-	margin-top: 9rem;
+	margin-top: 8rem;
 	padding: none;
 	color: 1d1e21;
 	text-align: center;
+
 }
 
 .about .content h2 {
 	font-size: 2rem;
-	margin: 2rem 0 5rem;
+	margin: 2rem 0 3rem;
 	font-weight: 300;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Lato', sans-serif;
+
 }
 
 .about h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 200;
     margin: 2rem 0 3rem;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
-.about .icon-phone {
-    width: 50%;
-    display: inline-block;
-    float: left;
-    margin-bottom: 4em;
-}
-
-.about .icon-tablet {
-    width: 50%;
+.about .icon {
+    width: 33.3333333%;
     display: inline-block;
     float: left;
 }
@@ -186,45 +179,10 @@ a:hover {
 	font-weight: 300;
 	font-size: 1.563rem;
 	margin: 2.5rem 0px 1.875rem;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
-img.img-circle {
-    border-radius: 100px;
-}
-
-img.img-circle:hover { 
-  /*  -moz-box-shadow: 0 0 10px #ff0000; 
-    -webkit-box-shadow: 0 0 10px #ff0000; 
-    box-shadow: 0 0 10px #ff0000; */
-    opacity: 0.7; 
-    filter: alpha(opacity=70); 
-} 
-
-img.img-circle-me {
-    border-radius: 100px;
-}
-
-
-/*About*/
-
-.me {
-    padding: 2em 3em;
-    margin-bottom: 5em;
-}
-
-.me-about {
-    float: right;
-    width: 50%;
-}
-
-.me P {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1.4rem;
-    font-weight: 100;
-    line-height: 2rem;
-    padding: 50px 80px;
-}
+/*My Skills*/
 
 .skills {
     background-color: #fff;
@@ -233,7 +191,7 @@ img.img-circle-me {
 }
 
 .skills .content {
-	margin-top: 4rem;
+	margin-top: 8rem;
 	padding: none;
 	color: 1d1e21;
 	text-align: center;
@@ -242,9 +200,10 @@ img.img-circle-me {
 
 .skills h2 {
 	font-size: 2rem;
-    margin: 5rem 0 3rem;
+    margin: 2rem 0 3rem;
     font-weight: 300;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Lato', sans-serif;
+
 }
 
 .skills .icon {
@@ -257,62 +216,50 @@ img.img-circle-me {
 	font-weight: 300;
 	font-size: 1.563rem;
 	margin: 2.5rem 0px 1.875rem;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Lato', sans-serif;
+<<<<<<< HEAD
 }
 
-               /***PROJECT PAGES***/
+/*Project pages*/
 
 .sobre .conteudo {
     display: block;
-    /*margin: auto;*/
-    width: 20em;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    width: 12em;
+
 }
 
-.sobre .conteudo-tablet {
+=======
+}
+
+/*Project pages*/
+
+.sobre .conteudo {
     display: block;
     margin: auto;
-    width: 22em;
-    padding-top: 2em;
+    width: 12em;
+
 }
 
+>>>>>>> master
 .sobre .conteudo h2{
     color: #1389f7;
     font-weight: 200;
     font-size: 1.8rem;
     text-align: center;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Lato', sans-serif;
     padding-top: 8rem;
     padding-bottom: 3rem;
 }
 
-.sobre .conteudo-tablet h2{
-    color: #1389f7;
-    font-weight: 200;
-    font-size: 1.8rem;
-    text-align: center;
-    font-family: 'Ubuntu', sans-serif;
-    padding-top: 8rem;
-    padding-bottom: 3rem;
-}
 
 .sobre .description h3{
     color: #51A7F9;
     font-weight: 200;
     font-size: 1.55rem;
     text-align: center;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Lato', sans-serif;
     margin: 3rem 0px 1rem;
-}
-
-ul.activshare{
-    list-style-type: decimal;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1rem;
-    line-height: 2rem;
-    font-weight: 200;
-    width: 80%; 
 }
 
 .sobre .challenge p{
@@ -322,14 +269,15 @@ ul.activshare{
     margin-top: 1.5rem;
     width: 100%;
     line-height: 1.6rem;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 300;
 }
 
 .sobre .other {
     width: 33.3333333%;
     display: inline-block;
-    float: left;  
+    float: left;
+    
 }
 
 .sobre .other p{
@@ -339,16 +287,19 @@ ul.activshare{
     margin-top: 0.5rem;
     width: 100%;
     line-height: 1.6rem;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 300;
 }
 
+ 
 .sobre .description {
     display: block;
     margin: auto;
     width: 65%;
-    padding-bottom: 12em; 
+    padding-bottom: 3em; 
+
 }
+
 
 .sobre .description li{
     color: black;
@@ -356,88 +307,17 @@ ul.activshare{
     font-size: 1.15rem;
     margin-top: 1.5rem;
     width: 100%;
-    line-height: 1.6rem;
-    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.3rem;
+    font-family: 'Lato', sans-serif;
     font-weight: 300;
     padding-left: 8em;
     list-style-type: disc;
     list-style-position: inside;
     text-indent: -1em;
-    list-style-type:circle;
+
 }
 
-img.img-spec {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-        /**** RESEARCH ****/
-
-.result {
-    /*padding: 1em 0em;*/
-    /*margin-bottom: 3em;*/
-}
-
-.result P {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1rem;
-    line-height: 2rem;
-    padding: 30px 110px;
-    font-weight: 200;
-    font-style: oblique;    
-    }
-
-.result li {
-    list-style-type: decimal;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1rem;
-    line-height: 2rem;
-    margin: 15px 175px;
-    font-weight: 200;
-    font-style: oblique; 
-}
-
-.details {
-    background-color: #fff;
-    overflow: hidden;
-    /*padding-bottom: 5rem;*/
-    }
-
-.details .content {
-    /*margin-top: 4rem;*/
-    padding: none;
-    color: 1d1e21;
-    text-align: center;
-    }
-
-.details h2 {
-    color: #51A7F9;
-    font-size: 1.55rem;
-    margin: 2rem 0 0rem;
-    font-weight: 200;
-    font-family: 'Ubuntu', sans-serif;
-    }
-
-.details h3 {
-    font-size: 1.35rem;
-    margin: 3rem 0 3rem;
-    font-weight: 300;
-    font-family: 'Ubuntu', sans-serif;
-    /*margin-top: 2rem;*/
-    /*font-style: oblique;*/
-    }
-   
-hr.style {
-    border: 0;
-    height: 1px;
-    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-} 
-
-      /**** PROTOTYPE BUTTON - LEARN MORE ****/
 
 .big-button {
     text-shadow: none;
@@ -451,36 +331,33 @@ hr.style {
     border-color: #1389DB;
     cursor: pointer;
     color: white;
-    margin-top: 1rem;
-    width: 11rem;
+    margin-top: 16rem;
+    width: 9rem;
     font-size: 1rem;
-    }
+    color: #838994;
+}
 
-.doublebutton .big-button a{
+.description .big-button a{
     color: #FFFFFF;
-    }
-
-.doublebutton {
-    width: 50%;
-    display: inline-block;
-    margin: 1em 21em 10em 
-    }
+}
 
 
-        /***Footer***/
+
+/*Footer*/
 
 .social {
 	background-color: #fff;
 	overflow: auto;
 	padding-bottom: 2.5rem;
 	text-align: center;
-    }
+}
+
 
 .social hr {
 	border: 0;
 	border-top: 1px solid #eaebec;
 	margin: 1.313rem 0;
-    }
+}
 
 .social .icons li {
 	border-radius: 1.25rem;
@@ -491,56 +368,51 @@ hr.style {
 	border: 1px solid #eaebec;
 	padding: 0.625rem 0;
 	text-align: center;
-    }
+}
+
 
 .social .icons li:hover {
     cursor: pointer;
     color: #333333;
-    }
+}
 
 .social .twitter {
 	color: #1C1C1C;
-    }
+}
 
 .social .linkedin {
 	color: #007BB6;
-    }
-
-.social .behance {
-    color: #007BB6;
-    }
-
-.social .message {
-    color: #007BB6;
-    }
+}
 
 .social .copy {
     font-size: 0.9rem;
     font-weight: 300;
     color: #838994;
-    }
+<<<<<<< HEAD
 
-           /**** MEDIA QUERIES ****/
+/*what else*/
+=======
+}
 
 @media only screen and (max-width: 1040px) {
     .content {
         width: 844px
-    }
+        }
 
     .introduction h1 {
-        font-size: 3.5rem;
+        font-size: 1.7rem;
         margin-top: 9rem;
-    }
+        }
 
     .introduction h2 {
-        font-size: 1.8rem;
-        /*line-height: 1.62rem;
-        width: 47%;*/
-    }
+        font-size: 1.25rem;
+        line-height: 1.62rem;
+        width: 47%;
+}
 
     .introduction {
-        /*background-size: 37%;
-        background-position: 83% 106%;*/
+        background-size: 37%;
+        background-position: 83% 106%;
         height: 23rem;
     }
 
@@ -559,22 +431,83 @@ hr.style {
     }
 
 	.introduction {
-    	/*background-size: 42%;
-    	background-position: 90% 88%;*/
+    	background-size: 42%;
+    	background-position: 90% 88%;
     	height: 23rem;
     }
 
     .introduction h1 {
-   		font-size: 2.5rem;
+   		font-size: 1.8rem;
    		margin-top: 9rem;
-    }
+}
 
 	.introduction h2 {
-   		font-size: 1.5rem;
-   		/*line-height: 1.3rem;
-   		width: 50%;*/
+   		font-size: 1rem;
+   		line-height: 1.3rem;
+   		width: 50%;
+}
+
+<<<<<<< HEAD
+@media only screen and (max-width: 1040px) {
+    .content {
+        width: 844px
+        }
+
+    .introduction h1 {
+        font-size: 1.7rem;
+        margin-top: 9rem;
+        }
+
+    .introduction h2 {
+        font-size: 1.25rem;
+        line-height: 1.62rem;
+        width: 47%;
+}
+
+    .introduction {
+        background-size: 37%;
+        background-position: 83% 106%;
+        height: 23rem;
     }
 
+    .about .content h2 {
+    font-size: 1.5rem;
+    }
+
+    .skills h2 {
+    font-size: 1.5rem;
+    }
+
+@media only screen and (max-width: 768px) {
+    .content {
+    	padding: 0px 20px 0px 20px;
+    	width: 680px
+    }
+
+	.introduction {
+    	background-size: 42%;
+    	background-position: 90% 88%;
+    	height: 23rem;
+    }
+
+    .introduction h1 {
+   		font-size: 1.8rem;
+   		margin-top: 9rem;
+}
+
+	.introduction h2 {
+   		font-size: 1rem;
+   		line-height: 1.3rem;
+   		width: 50%;
+}
+
+	.about {
+		padding-bottom: 1rem
+	}
+
+    .about .content h2{
+        font-size: 1.5rem;
+=======
 	.about {
 		padding-bottom: 1rem
 	}
@@ -588,7 +521,83 @@ hr.style {
     }
 
 
-/**** MEDIA QUERY - INDIVIDUAL PROJECTS ****/
+/*Project pages*/
+
+
+.sobre .conteudo {
+    width: 12em;
+}
+
+.sobre .other {
+    width: 100%;
+    display: inline-block;
+    float: left;
+}
+
+
+.big-button {
+    margin-top: 29rem;
+}
+
+
+
+@media only screen and (max-width:480px) {
+	.content {
+    	padding: 0px 10px 0px 10px;
+    	width: 400px
+    }
+
+    .introduction h1 {
+    	text-align: center;
+    	margin-top: 9rem
+    }
+
+    .introduction h2 {
+    	text-align: center;
+    	width: 100%;
+    }
+
+    .introduction {
+    	background-size: 90%;
+    	background-position: 50% 90%;
+    	height: 60rem;
+    }
+
+    .introduction h2 {
+   		font-size: 1.33rem;
+   		line-height: 1.9rem;
+   		width: 90%;
+   		margin-top: 2.5rem;
+    }
+
+	.about .icon {
+		width: 100%;
+	}
+
+	.about h2 {
+		font-size: 2rem;
+	}
+
+	.skills .icon {
+		width: 100%;
+	}
+
+	.skills h2 {
+		font-size: 2rem;
+	}
+
+    .top-navigation .links Li {
+    margin-left: 11px;
+    font-size: 14px;
+>>>>>>> master
+    }
+
+    .skills h2{
+        font-size: 1.5rem;
+    }
+
+
+/*Project pages*/
 
 
 .sobre .conteudo {
@@ -657,4 +666,3 @@ hr.style {
     margin-left: 11px;
     font-size: 14px;
     }
-
